@@ -26,8 +26,7 @@ body{
     color: #131313;
 }
 
-.header {
-}
+
 .container {
     max-width: 1220px;
     padding: 0 10px;
@@ -39,10 +38,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-}
-.logo__img {
-}
+
 .menu {
     margin-right: 70px;
 }
@@ -70,8 +66,7 @@ body{
 .bike {
     padding: 100px 0 150px;
 }
-.container {
-}
+
 .bike__iner {
     display: flex;
     justify-content: space-between;
@@ -148,11 +143,7 @@ body{
  
 }
 
-.bike__slider {
-}
-.bike-slider__item {
- 
-}
+
 .bike__list {
     margin-top: 25px;
     display: flex;
@@ -177,4 +168,36 @@ font-weight: 400;
 font-size: 12px;
 line-height: 15px;
 margin: auto 0;
+}
+
+.info {
+    margin-bottom: 150px;
+}
+
+.info__inner {
+    display: flex;
+   
+}
+.info-img {
+    margin-right: 60px;
+    flex-basis: 570px;
+    object-fit: cover;
+}
+.info__list {
+    flex-basis: 490px;
+}
+.info_item + .info_item {
+    padding-top: 50px;
+}
+.info__item-title {
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.info__item-text {
+   max-width: 450px;
+   
+
+    
 }
