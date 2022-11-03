@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    /* scroll-behavior: smooth; */
+}
+
 ul{
     padding: 0;
     margin: 0;
@@ -100,12 +104,17 @@ body{
     display: inline-block;
     background-color: #131313;
     color: #fff;
-    padding: 28px 81px;
+    padding: 28px 65px 28px 81px;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 1.1em;
+    transition: all .3s;
+}
+
+.bike__link:hover{
+    background-color: #ff4040;
 }
 
 
@@ -382,7 +391,7 @@ margin: auto 0;
 
 .form__btn{
     background-color: #131313;
-    padding: 28px 81px;
+    padding: 28px 65px 28px 81px;
     border: none;
     color: #fff;
     text-transform: uppercase;
@@ -390,6 +399,64 @@ margin: auto 0;
     line-height: 24px;
     letter-spacing: 1.1em;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.form__btn:hover{
+    background-color: #ff4040;
+}
+
+
+
+.footer {
+    background-color: #131313;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+.footer__link {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 15;
+    
+
+}
+.footer__social {
+
+}
+.footer__social-link + .footer__social-link {
+    margin-left: 26px;
+
+
+}
+.footer__social-img {
+
+}
+.footer__contacts {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    
+
+}
+.footer__contacts-link {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__contacts-link + .footer__contacts-link{
+    margin-top: 10px;
+}
+.footer__contacts-img {
+    margin-right: 10px;
+
 }
     
 
